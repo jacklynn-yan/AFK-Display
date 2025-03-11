@@ -8,7 +8,7 @@ scoreboard objectives add afk.checkAFK dummy
 scoreboard objectives add afk trigger
 
 team add afk "AFK Display"
-team modify afk color white
-team modify afk suffix {"text":" [AFK]", "color":"white"}
+team modify afk color gray
+team modify afk prefix {"text":"[AFK] ", "color":"gray"}
 
 tellraw @a ["",{"text":"Afk Display datapack has been reloaded"}]
